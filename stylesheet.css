@@ -1,0 +1,97 @@
+* {
+    font-family: 'Manrope', sans-serif;
+
+}
+
+
+body {
+    margin: 0;
+}
+
+
+
+/* brand name */
+
+
+nav {
+    padding-left: 26rem;
+}
+
+ul {
+    margin-bottom: 39px;
+}
+
+li {
+    list-style: none;
+    font-size: 31px;
+    font-weight: bolder;
+}
+
+
+li span {
+    font-weight: 100;
+    color: rgb(145, 144, 144);
+}
+
+/* end of brand name */
+
+
+/* container div*/
+
+.container {
+    display: flex;
+    padding-left: 28rem;
+}
+
+
+.text-div {
+    margin-left: -7rem;
+}
+
+
+
+.text-div h5 {
+    color: rgb(31, 123, 204);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+/* container holding the price of the earphones and the blue button */
+.price-container {
+    display: flex;
+    gap: 139px;
+    margin-bottom: 61px;
+}
+
+button {
+    background-color: rgb(34 6 172 / 62%);
+    border-color: transparent;
+    color: white;
+    margin-top: 24px;
+    width: 103px;
+    height: 40px;
+}
+
+
+/* picture of the lady with earphones */
+.headphone-pic {
+
+    width: 70%;
+    height: auto;
+}
+
+
+/* time header container */
+
+.countdown {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.time h2 {
+    font-weight: bolder;
+    font-size: 20px;
+
+}
