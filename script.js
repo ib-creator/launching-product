@@ -7,7 +7,7 @@ const seconds = document.getElementById('seconds');
 const currentYear = new Date().getFullYear();
 
 
-const launchDate = new Date("Oct 01, 2022 00:00:00").getTime();
+const launchDate = new Date("Aug 29, 2022 00:00:00").getTime();
 
 
 // update launchtime 

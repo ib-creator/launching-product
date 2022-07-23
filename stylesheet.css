@@ -24,7 +24,7 @@ ul {
 li {
     list-style: none;
     font-size: 31px;
-    font-weight: bolder;
+    font-weight: 500;
 }
 
 
@@ -41,6 +41,7 @@ li span {
 .container {
     display: flex;
     padding-left: 28rem;
+    margin-bottom: 75px;
 }
 
 
@@ -55,6 +56,16 @@ li span {
     font-size: 15px;
     font-weight: 300;
 }
+
+.text-div h1 {
+    color: rgb(63, 71, 71);
+}
+
+/* end */
+
+
+
+
 
 
 /* container holding the price of the earphones and the blue button */
@@ -88,10 +99,79 @@ button {
 
     display: flex;
     justify-content: space-around;
+    gap: 18px;
+
 }
 
 .time h2 {
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 28px;
+    color: rgb(183, 182, 182);
 
+}
+
+.time {
+    text-align: center;
+    height: 120px;
+    width: 100px;
+    border: 1px transparent solid;
+    background-color: rgb(250, 249, 249);
+}
+
+
+
+
+/* benefits container */
+
+.benefits-box {
+
+    height: 410px;
+    width: 100%;
+    border: 1px transparent solid;
+    background-color: rgb(250, 249, 249);
+}
+
+.benefits-box h5 {
+    color: rgb(31, 123, 204);
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.benefits-box h1 {
+    color: rgb(63, 71, 71);
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.logo-box h4 {
+    font-weight: 800;
+    color: rgb(63, 71, 71);
+}
+
+
+/* review container */
+
+.review-box {
+    text-align: center;
+}
+
+.star-rating {
+    width: 7%;
+    height: auto;
+}
+
+.review-box p {
+    color: rgb(152, 152, 152);
+}
+
+.review-box p span {
+    color: rgb(63, 71, 71);
+    font-weight: bolder;
 }
